@@ -1,4 +1,4 @@
-# Suitable Site Selection for a New Health Center using QGIS
+# Optimal Site Selection for a New Health Center using QGIS
 
 Author: Md Rimon Patwary
 
