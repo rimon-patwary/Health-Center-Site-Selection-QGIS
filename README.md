@@ -1,6 +1,6 @@
 # 🏥 Optimal Site Selection for a New Health Center using QGIS
 
-> **Author:** MD RIMON PATWARY | GIS & Spatial Analyst
+> Author: Md Rimon Patwary
 
 ### ## Overview
 This project uses spatial analysis and multi-criteria site suitability modeling in QGIS to identify the most suitable location for a new health center.
