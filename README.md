@@ -1,45 +1,43 @@
-# 🏥 Optimal Site Selection for a New Health Center using QGIS
+# Suitable Site Selection for a New Health Center using QGIS
 
-> Author: Md Rimon Patwary
+Author: Md Rimon Patwary
 
-### ## Overview
-This project uses spatial analysis and multi-criteria site suitability modeling in QGIS to identify the most suitable location for a new health center.
+## Overview
+This is a portfolio project. I wanted to find suitable areas for a new health center in Bangladesh. For this I used QGIS and OpenStreetMap data.
 
-### ## Objectives
-- Analyze spatial factors influencing health facility accessibility
-- Develop a suitability model using relevant criteria
-- Recommend optimal sites based on the analysis
+## Objectives
+- To check how location and roads affect access to health facilities
+- To use buffer and overlay tools to find suitable areas
+- To show the final result on a map
 
-### 🗺️ Final Output Maps
+## Final Output Maps
 
-#### 1. Health Center Site Selection Map
-Suitability analysis using buffer & overlay on road network and existing facilities.
-![Health Center Site Selection](maps/Final_GIS_Assignment.jpeg)
+### 1. Health Center Site Selection Map
+This map shows suitable areas based on buffer and overlay analysis of road networks and existing facilities.
 
-#### 2. District-wise Area Distribution Map of Bangladesh
+### 2. District-wise Area Distribution Map of Bangladesh
 Choropleth map showing area distribution across 64 districts.
-![District Area Map](maps/Bangladesh_District_Area_Map.png)
 
-### ## Tools & Technologies
+## Tools & Technologies
 - QGIS
 - Spatial Analysis
-- Multi-criteria Decision Analysis (MCDA)
+- Buffer and Overlay Analysis
 - Cartography
 
-### ## Methodology
-1. Data collection (population density, road network, existing health facilities, land use, etc.)
-2. Data preprocessing and projection
-3. Criteria weighting and suitability modeling
-4. Final site recommendation and mapping
+## Methodology
+1. Data collection from OpenStreetMap. I collected roads, places, points of interest and buildings
+2. Data cleaning and projection in QGIS
+3. Buffer and difference analysis to find suitable areas
+4. Final mapping and layout
 
-### ## Key Skills Demonstrated
-`QGIS` `Spatial Analysis` `Site Suitability Modeling` `Cartography` `GIS`
+## Key Skills Demonstrated
+QGIS | Spatial Analysis | Site Suitability Analysis | Cartography | GIS
 
-### ## Project Status
-Completed (Portfolio Project)
+## Project Status
+Completed as a portfolio project
 
-### ## Connect
+## Connect
 [LinkedIn](https://www.linkedin.com/in/md-rimon-patwary)
 
 ---
-Data Source: Bangladesh Administrative Boundaries | OpenStreetMap (OSM)
+Data Source: Bangladesh Administrative Boundaries | OpenStreetMap (OSM). Map data © OpenStreetMap contributors.
