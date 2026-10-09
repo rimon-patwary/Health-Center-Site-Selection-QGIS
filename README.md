@@ -3,12 +3,14 @@
 Author: Md Rimon Patwary
 
 ## Overview
-This is a portfolio project. I wanted to find suitable areas for a new health center in Bangladesh. For this I used QGIS and OpenStreetMap data.
+
+This project uses buffer and overlay analysis in QGIS with OpenStreetMap data. I used it to look for suitable areas for a new health center in Bangladesh.
 
 ## Objectives
-- To check how location and roads affect access to health facilities
-- To use buffer and overlay tools to find suitable areas
-- To show the final result on a map
+
+- Look at spatial factors that affect access to health facilities
+- Use buffer and overlay analysis with the road network and existing facilities
+- Show the result on a map
 
 ## Final Output Maps
 
@@ -19,18 +21,21 @@ This map shows suitable areas based on buffer and overlay analysis of road netwo
 Choropleth map showing area distribution across 64 districts.
 
 ## Tools & Technologies
+
 - QGIS
 - Spatial Analysis
 - Buffer and Overlay Analysis
 - Cartography
 
 ## Methodology
-1. Data collection from OpenStreetMap. I collected roads, places, points of interest and buildings
-2. Data cleaning and projection in QGIS
-3. Buffer and difference analysis to find suitable areas
-4. Final mapping and layout
+
+1. Data collection (OpenStreetMap roads, places, points of interest and buildings)
+2. Data preprocessing and projection
+3. Buffer and difference (overlay) analysis
+4. Mapping of the result
 
 ## Key Skills Demonstrated
+
 QGIS | Spatial Analysis | Site Suitability Analysis | Cartography | GIS
 
 ## Project Status
