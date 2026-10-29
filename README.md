@@ -1,48 +1,44 @@
 # Optimal Site Selection for a New Health Center using QGIS
 
-Author: Md Rimon Patwary
+**Author:** Md Rimon Patwary  
+*Incoming Master of Applied Science (Biodiversity Management) Student at Unitec Institute of Technology, New Zealand.*
 
 ## Overview
-
-This project uses buffer and overlay analysis in QGIS with OpenStreetMap data. I used it to look for suitable areas for a new health center in Bangladesh.
+This portfolio project focuses on spatial suitability modeling to identify optimal locations for establishing a new health center in Bangladesh. By leveraging open-source geospatial data, the analysis evaluates proximity constraints and service gaps to support evidence-based infrastructure planning.
 
 ## Objectives
-
-- Look at spatial factors that affect access to health facilities
-- Use buffer and overlay analysis with the road network and existing facilities
-- Show the result on a map
+- Evaluate spatial factors affecting public access to healthcare facilities.
+- Execute buffer and overlay analysis integrated with existing road networks and infrastructure layers.
+- Visualize suitability tiers through high-quality, communicative cartographic outputs.
 
 ## Final Output Maps
 
-### 1. Health Center Site Selection Map
-This map shows suitable areas based on buffer and overlay analysis of road networks and existing facilities.
+### 1. District-wise Area Distribution Map of Bangladesh
+This choropleth map illustrates the baseline administrative divisions and spatial area distribution across the 64 districts of Bangladesh.
+![District-wise Area Distribution Map](maps/bangladesh_district_area_map.png)
 
-### 2. District-wise Area Distribution Map of Bangladesh
-Choropleth map showing area distribution across 64 districts.
+### 2. Health Center Site Selection Map
+This multi-criteria suitability map displays the final targeted buffer zones and optimized sites for the proposed health center.
+![Health Center Site Selection Map](maps/health_center_site_selection.jpeg)
 
 ## Tools & Technologies
-
-- QGIS
-- Spatial Analysis
-- Buffer and Overlay Analysis
-- Cartography
+- **GIS Software:** QGIS
+- **Analysis Modules:** Raster Calculator, Vector Proximity (Buffers), Overlay (Difference/Intersection)
+- **Cartographic Output:** QGIS Print Layout
 
 ## Methodology
-
-1. Data collection (OpenStreetMap roads, places, points of interest and buildings)
-2. Data preprocessing and projection
-3. Buffer and difference (overlay) analysis
-4. Mapping of the result
+1. **Data Acquisition:** Sourced administrative boundaries and baseline infrastructure vectors (roads, places, points of interest, and buildings) from OpenStreetMap (OSM).
+2. **Data Preprocessing:** Standardized coordinate reference systems (CRS) and projection values for accurate geometric measurements.
+3. **Proximity & Overlay Modeling:** Applied multi-criteria buffer analysis followed by overlay and difference queries to isolate target locations.
+4. **Cartographic Design:** Composed the final map outputs with essential cartographic elements including dynamic scale bars, legends, titles, and north arrows.
 
 ## Key Skills Demonstrated
-
-QGIS | Spatial Analysis | Site Suitability Analysis | Cartography | GIS
+QGIS | Spatial Analysis | Site Suitability Modeling | Cartographic Design | Open Data Integration
 
 ## Project Status
-Completed as a portfolio project
+Completed as an independent GIS portfolio project.
 
 ## Connect
 [LinkedIn](https://www.linkedin.com/in/md-rimon-patwary)
-
 ---
-Data Source: Bangladesh Administrative Boundaries | OpenStreetMap (OSM). Map data © OpenStreetMap contributors.
+**Data Source:** Bangladesh Administrative Boundaries | OpenStreetMap (OSM). Map data © OpenStreetMap contributors.
