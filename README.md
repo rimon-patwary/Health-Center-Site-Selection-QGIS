@@ -14,12 +14,13 @@ This portfolio project focuses on spatial suitability modeling to identify optim
 ## Final Output Maps
 
 ### 1. District-wise Area Distribution Map of Bangladesh
-This choropleth map illustrates the baseline administrative divisions and spatial area distribution across the 64 districts of Bangladesh.
-![District-wise Area Distribution Map](maps/bangladesh_district_area_map.png)
+This map illustrates the thematic spatial distribution of area metrics across the 64 administrative districts of Bangladesh.
+![District-wise Area Distribution Map](bangladesh_district_area_map.png)
 
 ### 2. Health Center Site Selection Map
-This multi-criteria suitability map displays the final targeted buffer zones and optimized sites for the proposed health center.
-![Health Center Site Selection Map](maps/health_center_site_selection.jpeg)
+This suitability model displays the final targeted locations optimized for the construction of a new health center based on multi-criteria buffer zones and spatial proximity analysis.
+![Health Center Site Selection Map](health_center_site_selection.jpeg)
+
 
 ## Tools & Technologies
 - **GIS Software:** QGIS
